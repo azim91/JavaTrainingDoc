@@ -22,6 +22,17 @@ System’in üç tane sınıf değişkeni vardır: err, in, out. Bunlardan ilki,
 9.D
 Java  dosyaları  sadece 1 public class içerebilirler ve dosya asının class adıyla aynı olması zorunludur.
 10.B sedatların ornek
-11.
+11.B
+Kullanılmayan importların silinmesinin uygulamayı derlemeye bir etkisi olmamaktadır.
+
+12.FFFFFFFFFFFFFFFFFFFFFFFF
+
+13.D
+Kodların çalıştırılması için derlenmesi gerekmektedir. Derlendikten osnra da uzantıları .class olmaktadır. Bu yüzden 1 yanlış.
+Java nesne yönelimli olduğu için 2 yanlış
+Kodların derlenmesi için JVM ihtiyacı vardır. 3 yanlış.
+14.D
+Değişken tanımlamaları class içerisinde yapılmalıdır.
+15.
 
 https://www.infibee.com/programming/oca-java8/00003
