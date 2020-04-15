@@ -1,2 +1,25 @@
-1.a
-2.b
+1.D
+The Java literature frequently refers to the Signature of a method. A method signature is a collection of information about the method, and that includes the name, type (e.g., static or non-static), visibility (e.g., public, private, etc.), arguments (e.g., formal parameters), and return type.
+The main method is the entry point of the JVM when the class in launched. The JVM launchs the Java program by invoking the main method of the class identified in the command to start the program. The method main must be declared public, static, and void. It must accept a single argument that is an array of strings.
+The main method can be declared as either:
+public static void main(String[] args)
+or
+public static void main(String args[])
+
+2.A
+The diagram dont have anythink with  platform independent.
+3. C
+Yazılan Java kaynak kodları .java uzantılı dosyalarda yer alır ve Java derleyicisi tarafından derlenerek bytecode adı verilen kodları içeren .class uzantılı bir dosya elde edilir. 
+4.B
+When you tried to compile you have error  : “The type Date is ambiguous”
+5.A
+6.D
+7.B
+java.lang paketi içinde System sınıfı yer almaktadır.. Platformdan bağımsız olarak sistem düzeyindeki eylemleri belirleyen static bir sınıftır. 
+Bütün java programları java.lang paketinin  (importunu otomatik olarak yapar, onu ayrıca import etme gereği yoktur. Dolayısıyla, her java programı, System sınıfını içerir. System sınıfı public damgalı olduğundan, program içindeki her kod ona erişebilir. Ama, ayrıca final damgalı olduğundan, kalıtım olamaz; yani onun alt sınıfları yaratılamaz. Bu nedenle onun metotları da, otomatik olarak, final damgalı olur, yani değiştirilemezler. 
+System’in üç tane sınıf değişkeni vardır: err, in, out. Bunlardan ilki, sistemde oluşan hataları bildirir, ikincisi giriş akımlarını, üçüncüsü çıkış akımlarını yapar. 
+8.C       “#” isn’t a valid for comment in Java.
+9.D
+Java  dosyaları  sadece 1 public class içerebilirler ve dosya asının class adıyla aynı olması zorunludur.
+10.B sedatların ornek
+11.
