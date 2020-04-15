@@ -1,38 +1,68 @@
 1.D
-The Java literature frequently refers to the Signature of a method. A method signature is a collection of information about the method, and that includes the name, type (e.g., static or non-static), visibility (e.g., public, private, etc.), arguments (e.g., formal parameters), and return type.
-The main method is the entry point of the JVM when the class in launched. The JVM launchs the Java program by invoking the main method of the class identified in the command to start the program. The method main must be declared public, static, and void. It must accept a single argument that is an array of strings.
-The main method can be declared as either:
-public static void main(String[] args)
-or
-public static void main(String args[])
+	The Java literature frequently refers to the Signature of a method. A method signature is a collection of information about the method, and that includes the name, type (e.g., static or non-static), visibility (e.g., public, private, etc.), arguments (e.g., formal parameters), and return type.
+	The main method is the entry point of the JVM when the class in launched. The JVM launchs the Java program by invoking the main method of the class identified in the command to start the program. The method main must be declared public, static, and void. It must accept a single argument that is an array of strings.
+	The main method can be declared as either:
+	public static void main(String[] args)
+	or
+	public static void main(String args[])
+	
+	2.A
+	The diagram dont have anythink with  platform independent.
+	3. C
+	Yazılan Java kaynak kodları .java uzantılı dosyalarda yer alır ve Java derleyicisi tarafından derlenerek bytecode adı verilen kodları içeren .class uzantılı bir dosya elde edilir. 
+	4.B
+	When you tried to compile you have error  : “The type Date is ambiguous”
+	5.A
+	6.D
+	7.B
+	java.lang paketi içinde System sınıfı yer almaktadır.. Platformdan bağımsız olarak sistem düzeyindeki eylemleri belirleyen static bir sınıftır. 
+	Bütün java programları java.lang paketinin  (importunu otomatik olarak yapar, onu ayrıca import etme gereği yoktur. Dolayısıyla, her java programı, System sınıfını içerir. System sınıfı public damgalı olduğundan, program içindeki her kod ona erişebilir. Ama, ayrıca final damgalı olduğundan, kalıtım olamaz; yani onun alt sınıfları yaratılamaz. Bu nedenle onun metotları da, otomatik olarak, final damgalı olur, yani değiştirilemezler. 
+	System’in üç tane sınıf değişkeni vardır: err, in, out. Bunlardan ilki, sistemde oluşan hataları bildirir, ikincisi giriş akımlarını, üçüncüsü çıkış akımlarını yapar. 
+	8.C       “#” isn’t a valid for comment in Java.
+	9.D
+	Java  dosyaları  sadece 1 public class içerebilirler ve dosya asının class adıyla aynı olması zorunludur.
+	10.B sedatların ornek
+	11.B
+	Kullanılmayan importların silinmesinin uygulamayı derlemeye bir etkisi olmamaktadır.
+	
+	12.FFFFFFFFFFFFFFFFFFFFFFFF
+	
+	13.D
+	Kodların çalıştırılması için derlenmesi gerekmektedir. Derlendikten osnra da uzantıları .class olmaktadır. Bu yüzden 1 yanlış.
+	Java nesne yönelimli olduğu için 2 yanlış
+	Kodların derlenmesi için JVM ihtiyacı vardır. 3 yanlış.
+	14.D
+	Değişken tanımlamaları class içerisinde yapılmalıdır.
+	15.C
+Bir paket içerisine farklı paketler import edilebilir erişim belirteçleriyle de erişim yetkileri kontrol edilebilir.
+16.B
+Komut satırından bulunduğun dizindeki “Manager.java” kodunu derlemek için “javac Manager.java” yazmak gerekir. Eğer bir hatayla karşılaşmazsan “java Manager” komutyla da kodu çalıştırabilirsin.
+17.D
+Java Encapsulation java sınıfı içerisinde tanımladığımız değişkenlerimizi korumak veya saklamak anlamanına gelmektedir. Tanımladığımız bir sınıf içerisindeki değişkenin direk olarak değiştirilememesi, bunun yerine bizim izin verdiğimiz ölçüde, metotlar aracılığıyla değiştirilmesidir.
+18.D
+“height” değişkeni if döngüsü içinde anımlandığı için dıarıdan erişelemyecek ve haa verecektir.
 
-2.A
-The diagram dont have anythink with  platform independent.
-3. C
-Yazılan Java kaynak kodları .java uzantılı dosyalarda yer alır ve Java derleyicisi tarafından derlenerek bytecode adı verilen kodları içeren .class uzantılı bir dosya elde edilir. 
-4.B
-When you tried to compile you have error  : “The type Date is ambiguous”
-5.A
-6.D
-7.B
-java.lang paketi içinde System sınıfı yer almaktadır.. Platformdan bağımsız olarak sistem düzeyindeki eylemleri belirleyen static bir sınıftır. 
-Bütün java programları java.lang paketinin  (importunu otomatik olarak yapar, onu ayrıca import etme gereği yoktur. Dolayısıyla, her java programı, System sınıfını içerir. System sınıfı public damgalı olduğundan, program içindeki her kod ona erişebilir. Ama, ayrıca final damgalı olduğundan, kalıtım olamaz; yani onun alt sınıfları yaratılamaz. Bu nedenle onun metotları da, otomatik olarak, final damgalı olur, yani değiştirilemezler. 
-System’in üç tane sınıf değişkeni vardır: err, in, out. Bunlardan ilki, sistemde oluşan hataları bildirir, ikincisi giriş akımlarını, üçüncüsü çıkış akımlarını yapar. 
-8.C       “#” isn’t a valid for comment in Java.
-9.D
-Java  dosyaları  sadece 1 public class içerebilirler ve dosya asının class adıyla aynı olması zorunludur.
-10.B sedatların ornek
-11.B
-Kullanılmayan importların silinmesinin uygulamayı derlemeye bir etkisi olmamaktadır.
+19.A
+.java uzantılı dosyalar java da derlendıkten sonra .class uzantılı bytecode dosyalarına donüşürler. Bu dosyalar da JVM olan herhangi bir bilgisayarda çalışırılabilir.
+20.D
+Javada satır sonlarına nktalı virgül (;) konularak satır ifade bitirilir.
+21.C
+Kod calıstırıldıgında sonuc 31 cıkmaktadır.
+22.C
+1.satır class ifadesi eksik
+2.satır hem double hem de int kullanılış
+4.satır private yanlıs yerde kullanılmıs.
+23.D
+Platform bağımsızlığı özelliği sayesinde java uygulamalarını JVM olan bilgisayarlarda çalıştırabilirz.
+24.A
+25.B
+İnstance ve local veriable belirli yerlerde kullanılırken class veriable ları heryerde kullanılabilmektedir. 
+26.
 
-12.FFFFFFFFFFFFFFFFFFFFFFFF
 
-13.D
-Kodların çalıştırılması için derlenmesi gerekmektedir. Derlendikten osnra da uzantıları .class olmaktadır. Bu yüzden 1 yanlış.
-Java nesne yönelimli olduğu için 2 yanlış
-Kodların derlenmesi için JVM ihtiyacı vardır. 3 yanlış.
-14.D
-Değişken tanımlamaları class içerisinde yapılmalıdır.
-15.
+	
+	
+
+
 
 https://www.infibee.com/programming/oca-java8/00003
