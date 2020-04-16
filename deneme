@@ -57,12 +57,88 @@ Platform bağımsızlığı özelliği sayesinde java uygulamalarını JVM olan 
 24.A
 25.B
 İnstance ve local veriable belirli yerlerde kullanılırken class veriable ları heryerde kullanılabilmektedir. 
-26.
+26.A
+double ve int farklı tipte değişkenlerdir. double dan sonra da noktalı virgül(;) ile bitirilmesi gerekirdi.
+27.D
+String table = "metal" olarak bir başlangıc degeri verilmiştir ama String chair baslangıc degerine sahip değildir. Bu yüzden kod derlenmeyecektir.
+
+28.B
+instance variable ların default değerleri null dur.
+
+29.B
+değişken isimleri rakamlarla başlayamaz.
+
+30.B
+
+Proje İsimleri  :
+–          Küçük ya da büyük harfle başlayabilir.
+–          Genellikle büyük harfle başlatılır.
+–          Eğer birden fazla kelimeden oluşuyorsa sonraki kelimelerin baş harfleri büyültülür.
+–          Geri kalan kısmı küçük yazılır.
+Paket İsimleri :
+–          Küçük harfle başlar.
+–          Birden fazla kelimeden oluşuyorsa diğer kelimelerin sadece baş harfleri büyültülür.
+–          Paket isimlendirmeleri yapılırken domain ismi tersten yazılır.
+Örnek : tr.com.infopark.business.* gibi
+Sınıf isimleri :
+–          Büyük harfle başlar küçük harfle devam eder.
+–          Eğer birden fazla kelimeden oluşuyorsa diğer kelimelerin baş harfleri büyültülür.
+–          Sınıf isminin dosya ismi ile aynı olması gerekir.
+Metot isimleri :
+–          Küçük harfle başlar.
+–          Birden fazla kelimeden oluşuyorsa diğer kelimelerin sadece baş harfleri büyültülür.
+Değişken isimleri :
+–          Küçük harfle başlar.
+–          Birden fazla kelimeden oluşuyorsa diğer kelimelerin sadece baş harfleri büyültülür.
+–          $ ve _ dışında değişken ismi başında, başka herhangi bir karakter kullanılamaz.
+–          Değişken ismi içinde sayısal bir ifade kullanılacaksa değişken isminin başında kullanılamaz. Ortasında ya da sonunda sayısal ifade geçebilir.
 
 
-	
-	
+31.?????????????????
+32.C
+sayısal değerlerde basamaklar arasında _ konulabilmektedir. 9_9_9 değerini çalıştırdığımızda 999 değeriini elde ederiz. Ama _ ifadesiyle sayısal değeri başlatamayız.
+33.C
+“int” dedik “Integer” , double yerine “Double” gibi büyük harfle kullanılan ifadeler primitive veri tiplerinin Wrapper ( Kapsayıcı ) sınıfları olarak ifade edilir ve referans tipindedidir. Bu sınıfları kullanarak Max değer Min değer ve Boyut bilgisini gibi değerler bulunabilir.
+
+34.?????????wrapperla ilgili
+
+35.B
+new anahtar sözcüğüyle yeni bir primitive veri tipi oluştururuz.
+
+36.D
+float veri tipinin sonuna “f” veya “F” koyulmadığında Java bu tanımlamadaki veri tipini double olarak algılayacağı için geliştirme anında hata verecektir. 
+dogrusu float f2 = 5.0f şeklkinde olmalıydı.
+37.A
+byte 8 bit
+char 16 bit
+float 32 bit
+int 32 bit
+double 64 bit
+
+38.???anlamadım
+39.B
+tek satırda iki farklı tür tanımlanmaya calışılmış, ilk tanımlamadan sonra da ; ile bitirilmesi gerekirdi.
+40.????????????anlamadım
+,
+41.D
+boşluğa double, short ve int değişkenlerinden herhangi birini koyunca sonuç sıfır çıkmaktadır. 
+42.A
+Java dili kullanılmayan nesneleri silmek için arka planda çalışan bir sisteme sahiptir. Bu yüzden C++ gibi dillerde dinamik nesne tanımlarında mutlaka yer alması gereken nesneyi silme metodları javada o kadar gerekli değildir. Fakat eğer kendiniz metlaka bir nesneyi acil olarak silmek isteseniz finalize() isimli bir metodu sınıfınızda tanımlayıp kullanabilirsiniz.
+bu metot en fazla bir kere çağrılabilir.
+
+43.D
+
+String normal bir class tır.
+
+44.???????????
+
+45.C
+
+float kullanmak için pi = 3.14f; şeklinde tanımlanmalıydı.
+
+46.
+
 dsfs
 
-
+gibi
 https://www.infibee.com/programming/oca-java8/00003
