@@ -1,0 +1,49 @@
+13.A
+try
+{
+    //hesaplanmak istenen ifade        
+}
+catch            
+{
+    //Bir hata türü tespit edilince verilmesi gereken mesaj
+}            
+catch            
+{
+    //başka Bir hata türü tespit edilince verilmesi gereken mesaj
+}            
+finally
+{
+    //her durumda çalıştırılacak olan kod parçası
+}
+15.C
+16.B
+Exception fırlatıldıktan sonra uygulama sonlandırılmaz.
+17.
+21.B 
+Checked exception firlatan bir metodu cagirdigimizda handle-daclere kuralina uymak zorundayiz. Bu durumda bu kurala uygun sekilde ya throws anahtar kelimesini kullanmali ya da try-catch blogunda yakalamamiz gereklidir.
+23.A
+İlk olarak hangi catch bulogu ile eşleşirse o çalıştırılır.
+26.D
+StackOverflowException, genellikle çok derin veya sınırsız özyineleme durumunda yürütme yığını taşma hataları için oluşturulur.
+27.C ??
+Uygulamanın sonlanmayacağını garanti edemez.
+29.A
+try  ifadesi tek başına kullanılamaz , finally ifadesi de birden fazla kullanılamaz. Finally varsa catch kullanılmayabilir.
+31.C
+catch buloğundaki ifade yapılacaktır. En sonunda finally ifadesine gidileceği için buradaki exception da fırlatılacaktır.
+33.C ??
+Runtimeexception tanımlandığı için o fırlatılacaktır.
+34.C
+Exception tablosu düşünülürse error ve exception, Throwablenin altsınıflarıdır.
+36.A
+classCastException RuntimeException un alt sınıfı oldupu için önce o yazılmalıdır.
+https://m.firat.edu.tr/upload/user_449/903469dda765f135ba3dd165b3baf7a0d8d3c8a2_dosya_449.pdf adresindeki taloyu ekle
+37.D
+exception kullanmanın ana amacı uygulama sonlanmasının önüne geçmektir. 
+39.B ?
+Throw komutu ile ilgili exception fırlatılır.
+45.C
+İkiside runtimeException un altsınıfları olduğu için öncelik sıralamaları yoktur.
+48.B
+İnternet bağlantısı bulunmuyorsa error verilebilir.
+49.
